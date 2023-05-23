@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajustes</title>
+
+    <!--Estilos-->
+    <link rel="stylesheet" href="../css/estilos.css">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body>
+
+    <div class="navbar-fixed">
+
+        <nav class="light-blue darken-4">
+
+            <div class="nav-wrapper">
+
+                <div class="container">
+
+                    <a href="home.html" class="brand-logo">
+                        <img src="../css/img/logo.png" alt="">
+                    </a>
+                    <a href="#" data-target="menu-resposive" class="sidenav-trigger">
+                        <i class="material-icons">menu</i>
+                    </a>
+
+                    <ul class="right hide-on-med-and-down">
+
+                        <li>
+                            <a class="vehiculo" href="nuevoVehiculo.html">
+                                <i class="material-icons left">directions_car</i>
+                                Vehiculo
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="tickets" href="tickets.html">
+                                <i class="material-icons left">confirmation_number</i>
+                                Tickets
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="historial" href="historial.html">
+                                <i class="material-icons left">assignment</i>
+                                Historial
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="ajustes" href="ajustes.html">
+                                <i class="material-icons left">settings</i>
+                                Ajustes
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </div>
+
+
+    <ul class="sidenav" id="menu-resposive">
+        <li>
+            <div class="container center">
+                <br>
+                <i class="material-icons large">account_circle</i>
+                <h6>Nombre de Usuario</h6>
+                <p>ROL</p>
+            </div>
+        </li>
+        <li><a href="nuevoVehiculo.html">Vehículo</a></li>
+        <li><a href="tickets.html">Tickets</a></li>
+        <li><a href="historial.html">Historial</a></li>
+        <li><a href="ajustes.html">Ajustes</a></li>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <li><a class="waves-effect waves-light btn grey darken-1" href="index.html">Cerrar Sesión</a></li>
+
+
+    </ul>
+
+
+
+
+    <div class="row">
+
+        <div class="col  l2 grey lighten-2 largo hide-on-med-and-down">
+            <div class="container largo">
+
+                <div class="usuario">
+
+                    <div class="info center">
+                        <span>
+                            <br>
+                            <i class="material-icons large">account_circle</i>
+                            <h6>Nombre de Usuario</h6>
+                            <p>ROL</p>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <a class="waves-effect waves-light btn grey darken-1 " href="index.html">Cerrar Sesión</a>
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col s12 m12 l10 grey lighten-5 largo lighten-4">
+            <div class="title">
+                <div class="center">
+                    <br>
+                    <h4>AJUSTES</h4>
+                    <h6>Fecha actual: 26/09/2022 11:35</h6>
+                    <br>
+
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col s12">
+                            <form action="">
+                                <div class="section">
+                                    <h6>TARIFAS POR HORA:</h6>
+
+                                    <div class="input-field col s12 m4">
+                                        <input id="tarifaCarro" type="text" class="validate">
+                                        <label for="tarifaCarro">CARRO</label>
+                                    </div>
+                                    <div class="input-field col s12 m4">
+                                        <input id="tarifaCamion" type="text" class="validate">
+                                        <label for="tarifaCamion">CAMIÓN</label>
+                                    </div>
+                                    <div class="input-field col s12 m4">
+                                        <input id="tarifaMoto" type="text" class="validate">
+                                        <label for="tarifaMoto">MOTO</label>
+                                    </div>
+                                </div>
+                                <div class="section">
+
+                                    <h6>TARIFAS ADICIONALES POR FRACCIÓN:</h6>
+                                    <p>(El porcentaje sera un recargo aplicado automaticamente al valor despues de
+                                        cumplida la
+                                        primera hora).</p>
+
+                                    <div class="input-field col s12 m4">
+                                        <input id="fraccion15" type="text" class="validate">
+                                        <label for="fraccion15">% 15 min fracción</label>
+                                    </div>
+                                    <div class="input-field col s12 m4">
+                                        <input id="fraccion30" type="text" class="validate">
+                                        <label for="fraccion30">% 30 min fracción</label>
+                                    </div>
+                                    <div class="input-field col s12 m4">
+                                        <input id="fraccion45" type="text" class="validate">
+                                        <label for="fraccion45">% 45 min fracción</label>
+                                    </div>
+                                </div>
+                                <div class="section">
+
+                                    <h6>IMPRESORA:</h6>
+
+                                    <div class="input-field col s12 m4">
+                                        <select>
+                                            <option value="" disabled selected>Selecciona impresora</option>
+                                            <option value="1">Impresora 1</option>
+                                            <option value="2">impresora 2</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="container">
+                                    <div class="row">
+                                        <div class=" col s12 m12">
+                                            <a class=" col s3 m3 offset-m4 waves-effect waves-light teal accent-4 btn">Guardar
+                                                cambios</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                            </form>
+
+
+
+
+
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Pie de pag------------------------------------------------------------------------------->
+
+        <footer class="page-footer light-blue darken-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5>Información de equipo de desarrollo</h5>
+                        <p class="text-lighten-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2022 Copyright Text
+                    <p class=" text-lighten-4 right">Rossana Caldera</p>
+                </div>
+            </div>
+        </footer>
+
+        <!---------------------------------------------------------------------------------->
+
+    </div>
+
+
+
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Initializacion de componentes JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            M.AutoInit();
+        });
+    </script>
+
+</body>
+
+</html>
